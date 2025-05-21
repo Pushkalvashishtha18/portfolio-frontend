@@ -27,7 +27,7 @@ const Contact = () => {
 
     try {
       // Add your form submission logic here
-      await fetch('http://localhost:5000/api/contact', {
+      await fetch('fetch("https://portfolio-backend.onrender.com/apicontact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData)
